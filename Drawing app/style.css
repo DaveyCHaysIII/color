@@ -1,0 +1,109 @@
+:root{
+    --color-main: #7FD8BE;
+    --color-color: #FCEFEF;
+    --color-stroke: #FCD29F;
+    --color-opacity: #FCAB64;
+    --color-clear: #FCEFEF;
+    --color-border: #A1FCDF;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--color-main);
+}
+
+#canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+
+.toolbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100vh;
+    background-image: linear-gradient(var(--color-main), white);
+}
+
+img{
+    width: 80px;
+}
+
+button{
+    color: black;
+    margin: 22px;
+}
+
+.clear{
+    color: var(--color-clear);
+}
+
+.color{
+    height: 35px;
+    width: 35px;
+    background-color: #000000;
+    border: 3px solid var(--color-border);
+    border-radius: 8px;
+}
+
+.strokeSize{
+    height: 35px;
+    width: 35px;
+    background-color: var(--color-stroke);
+    border: 3px solid var(--color-border);
+    border-radius: 8px;
+}
+ 
+.opacity{
+    height: 35px;
+    width: 35px;
+    background-color: var(--color-opacity);
+    border: 3px solid var(--color-border);
+    border-radius: 8px;
+}
+
+.clear{
+    height: 35px;
+    width: 35px;
+    background-color:rgb(219,66,88);
+    border: 3px solid var(--color-border);
+}
+
+
+.tool_slider{
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background-color: var(--color-opacity);
+    width: 160px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.tool_slider input{
+    margin-left: 12px;
+    margin-top: 4px;
+}
+
+ .colorDiv{
+    border: 1px solid var(--color-border);
+    background-color: black;
+    width: 160px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.colorDiv p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.colorDiv input{
+    margin-bottom: 12px;
+}
